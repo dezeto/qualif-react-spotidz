@@ -1,0 +1,19 @@
+.album-card {
+    width: 15rem;
+    max-height: 20rem;
+    margin: 1rem;
+
+    .card-title {
+        width: 14rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.album-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
